@@ -10,5 +10,5 @@ You have a PDF document you want to chat with in other to get insights, this too
 
 For each user query, we process it as following:
 - Create embedding of the user query using **Open AI Embeddings**,
-- Make a similarity research in the indexed embeddings database,
+- Make a semantic search in the indexed embeddings database,
 - Make a summary of the result using **Langchain question answering** and **OpenAI GPT 3.5 Turbo** model. This summary is the chatbot answer.
